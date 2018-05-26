@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="c2bac599-60c8-4541-beb8-cbe929afa4eb" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.idea/shelf/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -663,7 +662,7 @@
       <option name="presentableId" value="Default" />
       <updated>1527196550735</updated>
       <workItem from="1527196553140" duration="5052000" />
-      <workItem from="1527211352441" duration="9841000" />
+      <workItem from="1527211352441" duration="9881000" />
     </task>
     <task id="LOCAL-00001" summary="Se remueve el icono png y se separan los estilos css">
       <created>1527307031124</created>
@@ -693,11 +692,18 @@
       <option name="project" value="LOCAL" />
       <updated>1527311319500</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Todos los iconos de lado derecho">
+      <created>1527314306723</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1527314306723</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14893000" />
+    <option name="totallyTimeSpent" value="14933000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="57" y="22" width="1863" height="878" extended-state="0" />
