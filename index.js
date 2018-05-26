@@ -3,7 +3,11 @@
  */
 document.addEventListener('DOMContentLoaded', function () {
     var elems = document.querySelectorAll('.sidenav');
-    var instances = M.Sidenav.init(elems);
+    M.Sidenav.init(elems);
 
+    var tabsElems = document.querySelectorAll('.tabs');
+    M.Tabs.init(tabsElems);
 
+    var butonElems = document.querySelectorAll('.fixed-action-btn');
+    M.FloatingActionButton.init(butonElems);
 });
