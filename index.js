@@ -13,4 +13,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
     var tooltipElems = document.querySelectorAll('.tooltipped');
     M.Tooltip.init(tooltipElems);
+
+    var characterCounterElems = document.querySelectorAll('input#input_text');
+    M.CharacterCounter.init(characterCounterElems);
 });
