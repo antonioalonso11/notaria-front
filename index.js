@@ -10,4 +10,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
     var butonElems = document.querySelectorAll('.fixed-action-btn');
     M.FloatingActionButton.init(butonElems);
+
+    var tooltipElems = document.querySelectorAll('.tooltipped');
+    M.Tooltip.init(tooltipElems);
 });
