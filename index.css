@@ -8,6 +8,12 @@ main {
     flex: 1 0 auto;
 }
 
+header,
+main,
+footer {
+    padding-left: 300px;
+}
+
 .menu-personal {
     position: fixed;
     top: 20px;
@@ -16,4 +22,37 @@ main {
 
 .home-circle {
     margin: auto;
+}
+
+.color-verde-olivo {
+    background-color: #93a603;
+}
+
+.color-verde-olivo-claro {
+    background-color: #c7d746;
+}
+
+.color-verde-olivo-obscuro {
+    background-color: #617700;
+}
+
+.color-cafe {
+    background-color: #733702
+}
+
+.color-cafe-claro {
+    background-color: #a6622e;
+}
+
+.color-cafe-obscuro {
+    background-color: #450d00;
+}
+
+
+@media only screen and (max-width: 992px) {
+    header,
+    main,
+    footer {
+        padding-left: 0;
+    }
 }

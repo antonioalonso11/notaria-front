@@ -16,4 +16,11 @@ document.addEventListener('DOMContentLoaded', function () {
 
     var characterCounterElems = document.querySelectorAll('input#input_text');
     M.CharacterCounter.init(characterCounterElems);
+
+
+    var dropdownElems = document.querySelectorAll('.dropdown-trigger');
+    var instances = M.Dropdown.init(dropdownElems);
+
 });
+
+
