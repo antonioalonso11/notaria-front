@@ -1,0 +1,15 @@
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+.menu-personal {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+}
