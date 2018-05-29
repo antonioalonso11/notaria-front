@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="c2bac599-60c8-4541-beb8-cbe929afa4eb" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index2.html" afterPath="$PROJECT_DIR$/index2.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.idea/shelf/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -605,7 +604,7 @@
       <workItem from="1527211352441" duration="19391000" />
       <workItem from="1527518701358" duration="1954000" />
       <workItem from="1527521414274" duration="1274000" />
-      <workItem from="1527531356038" duration="14720000" />
+      <workItem from="1527531356038" duration="14758000" />
     </task>
     <task id="LOCAL-00001" summary="Se remueve el icono png y se separan los estilos css">
       <created>1527307031124</created>
@@ -677,11 +676,18 @@
       <option name="project" value="LOCAL" />
       <updated>1527544314252</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Se agrega lo responsivo a las tarjetas">
+      <created>1527550076376</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1527550076376</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42391000" />
+    <option name="totallyTimeSpent" value="42429000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="57" y="21" width="1863" height="1059" extended-state="6" />
@@ -734,7 +740,8 @@
     <MESSAGE value="Se agrega el formulario" />
     <MESSAGE value="Se agregan íconos a las tablas" />
     <MESSAGE value="Agrega la vista 2, con el estilo completo" />
-    <option name="LAST_COMMIT_MESSAGE" value="Agrega la vista 2, con el estilo completo" />
+    <MESSAGE value="Se agrega lo responsivo a las tarjetas" />
+    <option name="LAST_COMMIT_MESSAGE" value="Se agrega lo responsivo a las tarjetas" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
