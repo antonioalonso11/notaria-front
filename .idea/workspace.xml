@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="c2bac599-60c8-4541-beb8-cbe929afa4eb" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cartas.html" afterPath="$PROJECT_DIR$/cartas.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index2.html" afterPath="$PROJECT_DIR$/index2.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.idea/shelf/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -714,7 +712,7 @@
       <workItem from="1527518701358" duration="1954000" />
       <workItem from="1527521414274" duration="1274000" />
       <workItem from="1527531356038" duration="14758000" />
-      <workItem from="1527950339201" duration="2462000" />
+      <workItem from="1527950339201" duration="2494000" />
     </task>
     <task id="LOCAL-00001" summary="Se remueve el icono png y se separan los estilos css">
       <created>1527307031124</created>
@@ -793,11 +791,18 @@
       <option name="project" value="LOCAL" />
       <updated>1527550076376</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Se agrega card a la tabla">
+      <created>1527955165748</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1527955165748</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46013000" />
+    <option name="totallyTimeSpent" value="46045000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="27" y="22" width="1378" height="878" extended-state="0" />
@@ -851,7 +856,8 @@
     <MESSAGE value="Se agregan íconos a las tablas" />
     <MESSAGE value="Agrega la vista 2, con el estilo completo" />
     <MESSAGE value="Se agrega lo responsivo a las tarjetas" />
-    <option name="LAST_COMMIT_MESSAGE" value="Se agrega lo responsivo a las tarjetas" />
+    <MESSAGE value="Se agrega card a la tabla" />
+    <option name="LAST_COMMIT_MESSAGE" value="Se agrega card a la tabla" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
