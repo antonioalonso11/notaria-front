@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/uikit.css">
+    <style>
+        body, html {
+            height: 100%;
+
+        }
+        body {
+            /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#53c8d4+0,00778e+100 */
+            background: #53c8d4; /* Old browsers */
+            background: -moz-linear-gradient(top, #53c8d4 0%, #00778e 100%); /* FF3.6-15 */
+            background: -webkit-linear-gradient(top, #53c8d4 0%,#00778e 100%); /* Chrome10-25,Safari5.1-6 */
+            background: linear-gradient(to bottom, #53c8d4 0%,#00778e 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+            filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#53c8d4', endColorstr='#00778e',GradientType=0 ); /* IE6-9 */
+        }
+        .login {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            align-content: center;
+            flex-wrap: nowrap;
+            height: 100%;
+        }
+    </style>
+</head>
+<body>
+<div class="login">
+
+    <div class="uk-card uk-card-default uk-card-body uk-width-medium">
+        <form>
+            <fieldset class="uk-flex uk-fieldset">
+
+                <legend class="uk-legend">
+                    <img src="logotfab.svg">
+                </legend>
+
+                <div class="uk-margin">
+                    <div class="uk-inline">
+                        <span class="uk-form-icon" uk-icon="icon: user"></span>
+                        <input class="uk-input">
+                    </div>
+                </div>
+
+                <div class="uk-margin">
+                    <div class="uk-inline">
+                        <span class="uk-form-icon" uk-icon="icon: lock"></span>
+                        <input class="uk-input" type="password">
+                    </div>
+                </div>
+            </fieldset>
+        </form>
+        <div class="uk-flex uk-flex-center">
+            <button class="uk-button uk-button-primary">Login</button>
+        </div>
+    </div>
+</div>
+<script src="js/uikit.js"></script>
+<script src="js/uikit-icons.js"></script>
+</body>
+</html>
