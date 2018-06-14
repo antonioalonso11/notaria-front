@@ -24,7 +24,7 @@ document.addEventListener('DOMContentLoaded', function () {
 });
 
 function sortTable(n) {
-	  var table, rows, switching, i, x, y, shouldSwitch, dir, switchcount = 0;
+	  var table, rows, switching,i, x, y, shouldSwitch, dir, switchcount = 0;
 	  table = document.getElementById("myTable");
 	  switching = true;
 	  
@@ -71,3 +71,10 @@ function sortTable(n) {
 	      }
 	    }
 	  }
+
+document.getElementById("demo").innerHTML = new Date("jul 21 1984");
+
+
+
+
+
