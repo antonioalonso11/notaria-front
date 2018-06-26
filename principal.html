@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/uikit.css">
+</head>
+<body>
+
+<div id="offcanvas-nav" uk-offcanvas="overlay: true">
+    <div class="uk-offcanvas-bar">
+
+        <ul class="uk-nav uk-nav-default">
+            <li><a href="#">Casos de uso</a></li>
+        </ul>
+    </div>
+</div>
+
+<nav class="uk-navbar-container" uk-navbar style="background-color: #1e87f0">
+    <div class="uk-navbar-left">
+        <a class="uk-navbar-toggle" style="color: white" uk-toggle="target: #offcanvas-nav" href="#">
+            <span uk-navbar-toggle-icon ></span> <span class="uk-margin-small-left">Menú Principal</span>
+        </a>
+    </div>
+    <div class="uk-navbar-right">
+        <ul class="uk-navbar-nav">
+            <li>
+                <a href="#" style="color: white" uk-icon="icon: user"></a>
+                <div class="uk-navbar-dropdown">
+                    <ul class="uk-nav uk-navbar-dropdown-nav">
+                        <li><a href="#">Perfil</a></li>
+                        <li class="uk-nav-divider"></li>
+                       <li><a href="#">Salir</a></li>
+                    </ul>
+                </div>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<div class="uk-section-small uk-container">
+    <ul class="uk-breadcrumb">
+        <li><span>Perfil</span></li>
+    </ul>
+</div>
+
+<main>
+    <div class="">
+        <div class="uk-container">
+            <div class="uk-child-width-1-2@m uk-grid-small uk-grid-match" uk-grid>
+                <div>
+                    <div class="uk-card uk-card-default">
+                        <div class="uk-card-header">
+                            <div class="uk-grid-small uk-flex-middle" uk-grid>
+                                <div class="uk-width-auto">
+                                    <span uk-icon="icon: user; ratio: 2.1"></span>
+                                </div>
+                                <div class="uk-width-expand">
+                                    <h3 class="uk-card-title uk-margin-remove-bottom">Antonio Francisco Alonso Valerdi</h3>
+                                    <p class="uk-text-meta uk-margin-remove-top">Desarrollador, Backend</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="uk-card-body">
+                            <div class="uk-clearfix">
+                                <div class="uk-float-left">
+                                    <span>Nivel de desarrollo</span>
+                                </div>
+                                <div class="uk-float-right">
+                                    <span>Senior</span>
+                                </div>
+                            </div>
+                            <div class="uk-clearfix">
+                                <div class="uk-float-left">
+                                    <span>Identificador</span>
+                                </div>
+                                <div class="uk-float-right">
+                                    <span>antonio.alonso</span>
+                                </div>
+                            </div>
+                            <div class="uk-clearfix">
+                                <div class="uk-float-left">
+                                    <span>Correo electrónico</span>
+                                </div>
+                                <div class="uk-float-right">
+                                    <span>antonio.alonso@sngular.team</span>
+                                </div>
+                            </div>
+                            <div class="uk-clearfix">
+                                <div class="uk-float-left">
+                                    <span>Número del contacto</span>
+                                </div>
+                                <div class="uk-float-right">
+                                    <span>2225 220156</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="uk-card-footer">
+                            <div class="uk-flex uk-flex-right">
+                                <a href="modificar_perfil.html" class="uk-button uk-button-default">Modificar</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="uk-card uk-card-default uk-card-body">
+                        <h3 class="uk-card-title">Proyectos relacionados</h3>
+                        <ul class="uk-list uk-list-divider">
+                            <li>Notaría</li>
+                            <li>Escuela de Ingles</li>
+                            <li>Estética</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+<script src="js/uikit.js"></script>
+<script src="js/uikit-icons.js"></script>
+</body>
+</html>

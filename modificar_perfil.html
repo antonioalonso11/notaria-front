@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/uikit.css">
+</head>
+<body>
+
+<div id="offcanvas-nav" uk-offcanvas="overlay: true">
+    <div class="uk-offcanvas-bar">
+
+        <ul class="uk-nav uk-nav-default">
+            <li><a href="#">Casos de uso</a></li>
+        </ul>
+    </div>
+</div>
+
+<nav class="uk-navbar-container" uk-navbar style="background-color: #1e87f0">
+    <div class="uk-navbar-left">
+        <a class="uk-navbar-toggle" style="color: white" uk-toggle="target: #offcanvas-nav" href="#">
+            <span uk-navbar-toggle-icon ></span> <span class="uk-margin-small-left">Menú Principal</span>
+        </a>
+    </div>
+    <div class="uk-navbar-right">
+        <ul class="uk-navbar-nav">
+            <li>
+                <a href="#" style="color: white" uk-icon="icon: user"></a>
+                <div class="uk-navbar-dropdown">
+                    <ul class="uk-nav uk-navbar-dropdown-nav">
+                        <li><a href="#">Perfil</a></li>
+                        <li class="uk-nav-divider"></li>
+                        <li><a href="#">Salir</a></li>
+                    </ul>
+                </div>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<div class="uk-section-small uk-container">
+    <ul class="uk-breadcrumb">
+        <li><a href="principal.html">Perfil</a></li>
+        <li><span>Editar</span></li>
+    </ul>
+</div>
+
+<main>
+    <div class="uk-container uk-container-small">
+        <div class="uk-card uk-card-default">
+            <div class="uk-card-header">
+                <div class="uk-grid-small uk-flex-middle" uk-grid>
+                    <div class="uk-width-auto">
+                        <span uk-icon="icon: user; ratio: 2.1"></span>
+                    </div>
+                    <div class="uk-width-expand">
+                        <h3 class="uk-card-title uk-margin-remove-bottom">Antonio Francisco Alonso Valerdi</h3>
+                        <p class="uk-text-meta uk-margin-remove-top">Desarrollador, Backend</p>
+                    </div>
+                </div>
+            </div>
+            <div class="uk-card-body">
+                <form class="uk-form-horizontal">
+                    <form class="uk-form-stacked">
+
+                        <div class="uk-margin">
+                            <label class="uk-form-label" for="telefono_contacto">Datos de contacto</label>
+                            <div class="uk-form-controls">
+                                <input class="uk-input" maxlength="10" onchange="cuentaCaracteres()" id="telefono_contacto" type="text" placeholder="máximo 10 caracteres">
+                            </div>
+                            <span style="display: block; text-align: right; margin: 10px 15px" >
+                                <span id="contador">0</span>
+                                - 10
+                            </span>
+                        </div>
+                    </form>
+                </form>
+            </div>
+            <div class="uk-card-footer">
+                <div class="uk-flex uk-flex-right">
+                    <p uk-margin>
+                        <button class="uk-button uk-button-secondary">Cancelar</button>
+                        <button class="uk-button uk-button-primary">Guardar</button>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+
+<script src="js/uikit.js"></script>
+<script src="js/uikit-icons.js"></script>
+<script src="js/modificar_perfil.js"></script>
+</body>
+</html>
