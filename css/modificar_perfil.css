@@ -1,0 +1,21 @@
+.uk-form-controls {
+    position: relative;
+}
+
+.uk-form-controls > input {
+    padding-right: 80px;
+}
+
+.uk-form-controls > span {
+    display: block;
+    text-align: right;
+    margin: 10px 15px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 14px;
+}
+
+.uk-form-controls > span:focus {
+    color: #1e87f0;
+}

@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="css/uikit.css">
+    <link rel="stylesheet" href="css/modificar_perfil.css">
 </head>
 <body>
 
@@ -26,11 +27,13 @@
         <ul class="uk-navbar-nav">
             <li>
                 <a href="#" style="color: white" uk-icon="icon: user"></a>
-                <div class="uk-navbar-dropdown">
+                <div class="uk-navbar-dropdown uk-open ">
                     <ul class="uk-nav uk-navbar-dropdown-nav">
                         <li><a href="#">Perfil</a></li>
                         <li class="uk-nav-divider"></li>
-                        <li><a href="#">Salir</a></li>
+                        <li>
+                                <a href="#" class="uk-flex-between uk-width-1-1" style="display: flex">Salir<span uk-icon="icon: table"></span></a>
+                        </li>
                     </ul>
                 </div>
             </li>
@@ -66,18 +69,16 @@
                         <div class="uk-margin">
                             <label class="uk-form-label" for="telefono_contacto">Datos de contacto</label>
                             <div class="uk-form-controls">
-                                <input class="uk-input" maxlength="10" id="telefono_contacto" type="text" placeholder="máximo 10 caracteres">
+                                <input class="uk-input" maxlength="10" id="telefono_contacto" type="text">
+                                <span></span>
                             </div>
-                            <span style="display: block; text-align: right; margin: 10px 15px" >
-
-                            </span>
                         </div>
 
                         <div class="uk-margin">
                             <label class="uk-form-label" for="nombre">Datos de contacto</label>
-                            <div class="uk-form-controls"  style="position: relative;">
-                                <input class="uk-input" maxlength="100" id="nombre" type="text" placeholder="máximo 10 caracteres" style="padding-right: 80px">
-                                <span style="display: block;text-align: right;margin: 10px 15px;position: absolute;top: 0;right: 0; font-size: 14px" ></span>
+                            <div class="uk-form-controls">
+                                <input class="uk-input" maxlength="100" id="nombre" type="text">
+                                <span></span>
                             </div>
                         </div>
 
