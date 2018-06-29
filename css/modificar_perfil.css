@@ -15,7 +15,23 @@
     right: 0;
     font-size: 14px;
 }
-
-.uk-form-controls > span:focus {
+/*
+.uk-input:focus + span {
     color: #1e87f0;
+}
+*/
+.uk-input:invalid + span {
+    color: red;
+}
+
+.uk-input:valid + span {
+    color: #1e87f0;
+}
+
+.uk-nav > li > a.menu-login--icon {
+    display: flex;
+}
+
+input[type=email] {
+    -webkit-appearance: none;
 }
